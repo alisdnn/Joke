@@ -7,7 +7,7 @@ import com.alisdnn.domain.entity.Entity
 
 
 /**
- * Album database data source
+ * Joke database data source
  */
 interface JokesDatabaseDataSource : BaseDataSource {
 

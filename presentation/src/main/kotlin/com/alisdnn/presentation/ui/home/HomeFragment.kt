@@ -22,6 +22,9 @@ import javax.inject.Inject
 
 class HomeFragment : BaseFragment(), SwipeRefreshLayout.OnRefreshListener {
 
+
+    private var _binding: HFB? = null
+
     @Inject
     lateinit var viewModelFactory: ViewModelProvider.Factory
 
@@ -37,7 +40,7 @@ class HomeFragment : BaseFragment(), SwipeRefreshLayout.OnRefreshListener {
 
 
 
-    private fun showAlbums(jokes: ResultState<PagedList<Entity.Joke>>) {
+    private fun showJokes(jokes: ResultState<PagedList<Entity.Joke>>) {
         when (jokes) {
             is ResultState.Success -> {
                 hideLoading()
@@ -76,9 +79,8 @@ class HomeFragment : BaseFragment(), SwipeRefreshLayout.OnRefreshListener {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initView()
-        observe(viewModel.jokesLiveData, ::showAlbums)
-//        observe(viewModel.deletedAlbumLiveData, ::onAlbumDeleted)
-        viewModel.getAlbums()
+        observe(viewModel.jokesLiveData, ::showJokes)
+        viewModel.getJokes()
     }
 
     override fun onRefresh() {

@@ -11,7 +11,7 @@
         tools:layout="@layout/fragment_home">
 
         <action
-            android:id="@+id/navigateToAlbumDetailFragment"
+            android:id="@+id/navigateToJokeDetailFragment"
             app:enterAnim="@anim/enter"
             app:exitAnim="@anim/exit"
             app:popEnterAnim="@anim/pop_enter"

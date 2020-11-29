@@ -2,7 +2,7 @@ package com.alisdnn.domain.entity
 
 
 /**
- * Album entity
+ * Joke entity
  */
 sealed class Entity {
 

@@ -10,7 +10,7 @@ import com.alisdnn.domain.repository.joke.JokesRepository
 
 
 /**
- * Album use case implementation
+ * Joke use case implementation
  */
 class GetJokesUseCaseImpl(
         private val transformerFlowable: FTransformer<ResultState<PagedList<Entity.Joke>>>,

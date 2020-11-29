@@ -24,7 +24,7 @@ fun getJokes(
 }
 
 /**
- * Album network data source
+ * Joke network data source
  */
 interface JokesApiDataSource : BaseDataSource {
 

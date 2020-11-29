@@ -40,5 +40,5 @@ class HomeModule {
 
     @Provides
     //@PerFragment
-    fun provideGetAlbumsUseCaseImpl(repository: JokesRepository): GetJokesUseCase = GetJokesUseCaseImpl(AsyncFTransformer(), AsyncSTransformer(), AsyncSTransformer(), repository)
+    fun provideGetJokesUseCaseImpl(repository: JokesRepository): GetJokesUseCase = GetJokesUseCaseImpl(AsyncFTransformer(), AsyncSTransformer(), AsyncSTransformer(), repository)
 }

@@ -8,7 +8,7 @@ import com.alisdnn.domain.repository.BaseRepository
 
 
 /**
- * Album repository
+ * Joke repository
  */
 interface JokesRepository : BaseRepository {
 

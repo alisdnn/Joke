@@ -9,7 +9,7 @@ import com.alisdnn.domain.usecase.BaseUseCase
 
 
 /**
- * Album use case
+ * Joke use case
  */
 interface GetJokesUseCase : BaseUseCase {
 

@@ -14,7 +14,7 @@ import com.alisdnn.domain.repository.joke.JokesRepository
 
 
 /**
- * Album repository implementation
+ * Joke repository implementation
  */
 class JokesRepositoryImpl(
         private val apiSource: JokesApiDataSource,

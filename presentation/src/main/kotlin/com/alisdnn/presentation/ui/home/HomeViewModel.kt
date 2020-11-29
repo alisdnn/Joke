@@ -37,7 +37,7 @@ constructor(
     }
 
 
-    fun getAlbums() {
+    fun getJokes() {
         fetch.postValue("")
         //page++
     }

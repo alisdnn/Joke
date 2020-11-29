@@ -42,6 +42,6 @@ class NetModule {
     }
 
     @Provides
-    fun providesAlbumApi(retrofit: Retrofit): JokeApi = retrofit.create(JokeApi::class.java)
+    fun providesJokeApi(retrofit: Retrofit): JokeApi = retrofit.create(JokeApi::class.java)
 
 }

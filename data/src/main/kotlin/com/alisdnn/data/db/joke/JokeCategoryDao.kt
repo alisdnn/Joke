@@ -7,7 +7,7 @@ import com.alisdnn.data.db.BaseDao
 
 
 /**
- * Album dao
+ * Joke dao
  */
 @Dao
 interface JokeCategoryDao : BaseDao<JokeCategoryData.Category> {

@@ -6,7 +6,7 @@ import retrofit2.http.GET
 
 
 /**
- * Albums api
+ * Jokes api
  */
 interface JokeApi {
 

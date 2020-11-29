@@ -8,7 +8,7 @@ import java.util.concurrent.Executor
 
 
 /**
- * Album database data source implementation
+ * Joke database data source implementation
  */
 class JokesDatabaseDataSourceImpl(private val jokeDao: JokeDao,
                                   private val ioExecutor: Executor) : JokesDatabaseDataSource {

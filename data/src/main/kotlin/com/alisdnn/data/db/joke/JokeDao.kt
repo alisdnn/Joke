@@ -9,7 +9,7 @@ import com.alisdnn.data.db.BaseDao
 
 
 /**
- * Album dao
+ * Joke dao
  */
 @Dao
 interface JokeDao : BaseDao<JokeData.Joke> {

@@ -4,7 +4,7 @@ import androidx.room.*
 
 
 /**
- * Album data class
+ * Joke data class
  */
 sealed class JokeData {
 
