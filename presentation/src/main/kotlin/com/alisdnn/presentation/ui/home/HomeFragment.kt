@@ -23,8 +23,6 @@ import javax.inject.Inject
 class HomeFragment : BaseFragment(), SwipeRefreshLayout.OnRefreshListener {
 
 
-    private var _binding: HFB? = null
-
     @Inject
     lateinit var viewModelFactory: ViewModelProvider.Factory
 
